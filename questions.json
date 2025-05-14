@@ -1,0 +1,802 @@
+{
+  "1": {
+    "question": "In welk deel van de wereld ligt Nederland?",
+    "options": {
+      "a": "Europa",
+      "b": "Zuid-Amerika"
+    },
+    "answer": "a"
+  },
+  "2": {
+    "question": "Welk land ligt ten zuiden van Nederland?",
+    "options": {
+      "a": "België",
+      "b": "Duitsland"
+    },
+    "answer": "a"
+  },
+  "3": {
+    "question": "Welk land ligt ten oosten van Nederland?",
+    "options": {
+      "a": "België",
+      "b": "Duitsland"
+    },
+    "answer": "b"
+  },
+  "4": {
+    "question": "Welk land is groter?",
+    "options": {
+      "a": "Marokko",
+      "b": "Nederland"
+    },
+    "answer": "a"
+  },
+  "5": {
+    "question": "Welk land is kleiner?",
+    "options": {
+      "a": "Nederland",
+      "b": "Turkije"
+    },
+    "answer": "a"
+  },
+  "6": {
+    "question": "Wat betekent Nederland?",
+    "options": {
+      "a": "laag land",
+      "b": "waterland"
+    },
+    "answer": "a"
+  },
+  "7": {
+    "question": "Kijk naar de foto. Wat is dit?",
+    "options": {
+      "a": "een dijk",
+      "b": "een haven"
+    },
+    "answer": "a"
+  },
+  "8": {
+    "question": "Wat gebeurt er met Nederland als er geen dijken zijn?",
+    "options": {
+      "a": "Nederland krijgt meer regen",
+      "b": "Nederland staat onder water"
+    },
+    "answer": "b"
+  },
+  "9": {
+    "question": "Welke stad ligt in de Randstad?",
+    "options": {
+      "a": "Eindhoven",
+      "b": "Utrecht"
+    },
+    "answer": "b"
+  },
+  "10": {
+    "question": "In Nederland, wonen daar veel mensen of weinig mensen?",
+    "options": {
+      "a": "veel mensen",
+      "b": "weinig mensen"
+    },
+    "answer": "a"
+  },
+  "11": {
+    "question": "Wat is de hoofdstad van Nederland?",
+    "options": {
+      "a": "Amsterdam",
+      "b": "Den Haag"
+    },
+    "answer": "a"
+  },
+  "12": {
+    "question": "In welke stad zit de regering van Nederland?",
+    "options": {
+      "a": "Den Haag",
+      "b": "Rotterdam"
+    },
+    "answer": "a"
+  },
+  "13": {
+    "question": "Waar woont de koning van Nederland?",
+    "options": {
+      "a": "Groningen",
+      "b": "Zuid-Holland"
+    },
+    "answer": "b"
+  },
+  "14": {
+    "question": "Waar ligt de grootste zeehaven van Nederland?",
+    "options": {
+      "a": "Amsterdam",
+      "b": "Rotterdam"
+    },
+    "answer": "b"
+  },
+  "15": {
+    "question": "Hoe heet de nationale luchthaven van Nederland?",
+    "options": {
+      "a": "Europoort",
+      "b": "Schiphol"
+    },
+    "answer": "b"
+  },
+  "16": {
+    "question": "Waar ligt Schiphol?",
+    "options": {
+      "a": "Amsterdam",
+      "b": "Rotterdam"
+    },
+    "answer": "a"
+  },
+  "17": {
+    "question": "Wie helpt u als u in Nederland aankomt?",
+    "options": {
+      "a": "de regering",
+      "b": "mijn partner"
+    },
+    "answer": "b"
+  },
+  "18": {
+    "question": "Is Nederland vaak droog of nat?",
+    "options": {
+      "a": "droog",
+      "b": "nat"
+    },
+    "answer": "b"
+  },
+  "19": {
+    "question": "Als u naar Nederland komt, moet u dan opnieuw uw rijbewijs halen?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "20": {
+    "question": "In Nederland, zijn de wegen daar druk of rustig?",
+    "options": {
+      "a": "druk",
+      "b": "rustig"
+    },
+    "answer": "a"
+  },
+  "21": {
+    "question": "In Nederland, zijn daar veel fietsen of weinig fietsen?",
+    "options": {
+      "a": "veel fietsen",
+      "b": "weinig fietsen"
+    },
+    "answer": "a"
+  },
+  "22": {
+    "question": "Wat is typisch Nederlands in het verkeer?",
+    "options": {
+      "a": "boten",
+      "b": "fietsen"
+    },
+    "answer": "b"
+  },
+  "23": {
+    "question": "Leven Nederlanders veel binnen of buiten?",
+    "options": {
+      "a": "binnen",
+      "b": "buiten"
+    },
+    "answer": "a"
+  },
+  "24": {
+    "question": "Wie ziet u op het plaatje?",
+    "options": {
+      "a": "de Koning van Spanje",
+      "b": "Willem van Oranje"
+    },
+    "answer": "b"
+  },
+  "25": {
+    "question": "Was de koning van Spanje katholiek of protestants?",
+    "options": {
+      "a": "katholiek",
+      "b": "protestants"
+    },
+    "answer": "a"
+  },
+  "26": {
+    "question": "Hoe lang duurde de oorlog met Spanje?",
+    "options": {
+      "a": "8 jaar",
+      "b": "80 jaar"
+    },
+    "answer": "b"
+  },
+  "27": {
+    "question": "Hoe lang bestaat de Nederlandse staat ongeveer?",
+    "options": {
+      "a": "vijftig jaar",
+      "b": "vierhonderd jaar"
+    },
+    "answer": "b"
+  },
+  "28": {
+    "question": "Waren de VOC-schepen voor de handel of voor de visvangst?",
+    "options": {
+      "a": "voor de handel",
+      "b": "voor de vis"
+    },
+    "answer": "a"
+  },
+  "29": {
+    "question": "Wie schilderde dit schilderij?",
+    "options": {
+      "a": "Rembrandt van Rijn",
+      "b": "Willem van Oranje"
+    },
+    "answer": "a"
+  },
+  "30": {
+    "question": "Is er in Nederland scheiding van kerk en staat?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "31": {
+    "question": "Door welk land is Nederland bezet tijdens de Tweede Wereldoorlog?",
+    "options": {
+      "a": "Duitsland",
+      "b": "Engeland"
+    },
+    "answer": "a"
+  },
+  "32": {
+    "question": "Welke grote Nederlandse stad is in 1940 gebombardeerd?",
+    "options": {
+      "a": "Amsterdam",
+      "b": "Rotterdam"
+    },
+    "answer": "b"
+  },
+  "33": {
+    "question": "Waarom is Anne Frank beroemd?",
+    "options": {
+      "a": "Ze schreef een dagboek",
+      "b": "Ze was baas van een museum"
+    },
+    "answer": "a"
+  },
+  "34": {
+    "question": "Welke kolonie van Nederland werd onafhankelijk vlak na de Tweede Wereldoorlog?",
+    "options": {
+      "a": "Indonesië",
+      "b": "Suriname"
+    },
+    "answer": "a"
+  },
+  "35": {
+    "question": "Uit welk land kwamen veel gastarbeiders?",
+    "options": {
+      "a": "uit Engeland",
+      "b": "uit Turkije"
+    },
+    "answer": "b"
+  },
+  "36": {
+    "question": "Welke kolonie van Nederland werd in 1975 onafhankelijk?",
+    "options": {
+      "a": "Nederlandse Antillen",
+      "b": "Suriname"
+    },
+    "answer": "b"
+  },
+  "37": {
+    "question": "Wie zijn dit?",
+    "options": {
+      "a": "koning Willem-Alexander en koningin Maxima",
+      "b": "prinses Beatrix en haar man Claus"
+    },
+    "answer": "a"
+  },
+  "38": {
+    "question": "Uit welk land komt koningin Maxima?",
+    "options": {
+      "a": "Argentinië",
+      "b": "Duitsland"
+    },
+    "answer": "a"
+  },
+  "39": {
+    "question": "Hoe heet de kroonprinses?",
+    "options": {
+      "a": "Amalia",
+      "b": "Beatrix"
+    },
+    "answer": "a"
+  },
+  "40": {
+    "question": "Is Nederland een democratie?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "41": {
+    "question": "In welke stad zit het parlement van Nederland?",
+    "options": {
+      "a": "Amsterdam",
+      "b": "Den Haag"
+    },
+    "answer": "b"
+  },
+  "42": {
+    "question": "Wat is de belangrijkste wet in Nederland?",
+    "options": {
+      "a": "de grondwet",
+      "b": "het parlement"
+    },
+    "answer": "a"
+  },
+  "43": {
+    "question": "Wie is de voorzitter van de raad van ministers?",
+    "options": {
+      "a": "de koning",
+      "b": "de minister-president"
+    },
+    "answer": "b"
+  },
+  "44": {
+    "question": "Wie vergaderen in deze zaal?",
+    "options": {
+      "a": "de Eerste Kamer",
+      "b": "de Tweede Kamer"
+    },
+    "answer": "b"
+  },
+  "45": {
+    "question": "Hoe vaak zijn er verkiezingen in Nederland?",
+    "options": {
+      "a": "elke vier jaar",
+      "b": "zes jaar"
+    },
+    "answer": "a"
+  },
+  "46": {
+    "question": "Hoe oud moet u zijn om te mogen stemmen in Nederland?",
+    "options": {
+      "a": "18 jaar",
+      "b": "21 jaar"
+    },
+    "answer": "a"
+  },
+  "47": {
+    "question": "Heeft Nederland één politieke partij of meer politieke partijen?",
+    "options": {
+      "a": "één politieke partij",
+      "b": "meer politieke partijen"
+    },
+    "answer": "b"
+  },
+  "48": {
+    "question": "Wat is de functie van deze man?",
+    "options": {
+      "a": "burgemeester",
+      "b": "minister-president"
+    },
+    "answer": "a"
+  },
+  "49": {
+    "question": "Is discriminatie toegestaan in Nederland?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "b"
+  },
+  "50": {
+    "question": "Hebben vrouwen in Nederland méér rechten dan mannen of dezelfde rechten?",
+    "options": {
+      "a": "dezelfde rechten als mannen",
+      "b": "meer rechten dan mannen"
+    },
+    "answer": "a"
+  },
+  "51": {
+    "question": "Mogen vrouwen in Nederland zelf kiezen met wie ze willen trouwen?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "52": {
+    "question": "Is het discrimineren van homoseksuelen strafbaar of toegestaan in Nederland?",
+    "options": {
+      "a": "strafbaar",
+      "b": "toegestaan"
+    },
+    "answer": "a"
+  },
+  "53": {
+    "question": "Heeft Nederland één staatsgodsdienst of zijn er veel godsdiensten?",
+    "options": {
+      "a": "Er is één staatsgodsdienst",
+      "b": "Er zijn veel godsdiensten"
+    },
+    "answer": "b"
+  },
+  "54": {
+    "question": "Zijn de kranten, radio en televisie vrij in hun mening in Nederland?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "55": {
+    "question": "Heeft Nederland veel televisiezenders of is er één staatszender?",
+    "options": {
+      "a": "Er is één staatszender",
+      "b": "Er zijn veel televisiezenders"
+    },
+    "answer": "b"
+  },
+  "56": {
+    "question": "Is homoseksualiteit toegestaan of strafbaar in Nederland?",
+    "options": {
+      "a": "strafbaar",
+      "b": "toegestaan"
+    },
+    "answer": "b"
+  },
+  "57": {
+    "question": "Is wapenbezit zonder vergunning toegestaan of strafbaar in Nederland?",
+    "options": {
+      "a": "strafbaar",
+      "b": "toegestaan"
+    },
+    "answer": "a"
+  },
+  "58": {
+    "question": "Is vrouwenbesnijdenis toegestaan of strafbaar in Nederland?",
+    "options": {
+      "a": "strafbaar",
+      "b": "toegestaan"
+    },
+    "answer": "a"
+  },
+  "59": {
+    "question": "Is het slaan van vrouwen toegestaan of strafbaar in Nederland?",
+    "options": {
+      "a": "strafbaar",
+      "b": "toegestaan"
+    },
+    "answer": "a"
+  },
+  "60": {
+    "question": "Hebben alle mensen in Nederland hetzelfde geloof?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "b"
+  },
+  "61": {
+    "question": "Welke taal spreken de mensen in Nederland?",
+    "options": {
+      "a": "Duits",
+      "b": "Nederlands"
+    },
+    "answer": "b"
+  },
+  "62": {
+    "question": "Is het belangrijk om snel Nederlands te leren?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "63": {
+    "question": "Wat leert u in de Nederlandse taalles?",
+    "options": {
+      "a": "alle Europese talen",
+      "b": "de Nederlandse taal"
+    },
+    "answer": "b"
+  },
+  "64": {
+    "question": "Moet u voor een taalcursus betalen?",
+    "options": {
+      "a": "ja",
+      "b": "de school betaalt"
+    },
+    "answer": "a"
+  },
+  "65": {
+    "question": "Wie betaalt de taalcursus?",
+    "options": {
+      "a": "de school betaalt",
+      "b": "Ik betaal zelf"
+    },
+    "answer": "b"
+  },
+  "66": {
+    "question": "Gaan in Nederland alleen kinderen naar school of ook volwassenen?",
+    "options": {
+      "a": "alleen kinderen",
+      "b": "kinderen en volwassenen"
+    },
+    "answer": "b"
+  },
+  "67": {
+    "question": "Worden verjaardagen in Nederland gevierd?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "68": {
+    "question": "Wat doen Nederlanders meestal als ze bij iemand op bezoek gaan?",
+    "options": {
+      "a": "Ze gaan zomaar naar binnen",
+      "b": "Ze maken meestal een afspraak"
+    },
+    "answer": "b"
+  },
+  "69": {
+    "question": "Opa’s en oma’s in Nederland, wonen die bij hun kinderen of wonen ze apart?",
+    "options": {
+      "a": "Ze wonen apart",
+      "b": "Ze wonen bij hun kinderen"
+    },
+    "answer": "a"
+  },
+  "70": {
+    "question": "Is het voor het leren van de taal goed om met kinderen naar de Nederlandse televisie te kijken?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "71": {
+    "question": "Wie is in Nederland verantwoordelijk voor wat kinderen doen?",
+    "options": {
+      "a": "de ouders",
+      "b": "de school"
+    },
+    "answer": "a"
+  },
+  "72": {
+    "question": "Hoe oud zijn de meeste kinderen in Nederland als ze naar school gaan?",
+    "options": {
+      "a": "vier jaar",
+      "b": "vijf jaar"
+    },
+    "answer": "a"
+  },
+  "73": {
+    "question": "Vanaf welke leeftijd is onderwijs verplicht in Nederland?",
+    "options": {
+      "a": "vier jaar",
+      "b": "vijf jaar"
+    },
+    "answer": "b"
+  },
+  "74": {
+    "question": "Tot welke leeftijd is onderwijs verplicht in Nederland?",
+    "options": {
+      "a": "twaalf jaar",
+      "b": "achttien jaar"
+    },
+    "answer": "b"
+  },
+  "75": {
+    "question": "Leren kinderen als ze spelen?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "76": {
+    "question": "Wie kiest in Nederland de school voor het kind?",
+    "options": {
+      "a": "de gemeente",
+      "b": "de ouders"
+    },
+    "answer": "b"
+  },
+  "77": {
+    "question": "Zijn er in Nederland op school aparte klassen voor jongens en voor meisjes?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "b"
+  },
+  "78": {
+    "question": "Dragen kinderen in Nederland op school een uniform?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "b"
+  },
+  "79": {
+    "question": "Wat laten deze jongen doen met een computer?",
+    "options": {
+      "a": "alleen spelen",
+      "b": "spelen en leren"
+    },
+    "answer": "b"
+  },
+  "80": {
+    "question": "Voortgezet onderwijs, is dat voor kinderen vanaf vier jaar of vanaf twaalf jaar?",
+    "options": {
+      "a": "vanaf vier jaar",
+      "b": "vanaf twaalf jaar"
+    },
+    "answer": "b"
+  },
+  "81": {
+    "question": "Gaan alle kinderen vanaf twaalf jaar naar hetzelfde soort onderwijs, of zijn er twee richtingen?",
+    "options": {
+      "a": "Er is één soort",
+      "b": "Er zijn twee richtingen"
+    },
+    "answer": "b"
+  },
+  "82": {
+    "question": "Tot welke leeftijd kunnen jongeren in Nederland naar school?",
+    "options": {
+      "a": "zestien jaar",
+      "b": "achttien jaar"
+    },
+    "answer": "b"
+  },
+  "83": {
+    "question": "Vanaf welke leeftijd mogen jongeren een eigen keuze maken?",
+    "options": {
+      "a": "vanaf zestien jaar",
+      "b": "vanaf achttien jaar"
+    },
+    "answer": "a"
+  },
+  "84": {
+    "question": "Is het verplicht om u te verzekeren tegen ziektekosten?",
+    "options": {
+      "a": "ja",
+      "b": "nee"
+    },
+    "answer": "a"
+  },
+  "85": {
+    "question": "Wie betaalt in Nederland uw verzekering tegen ziektekosten?",
+    "options": {
+      "a": "de gemeente",
+      "b": "mijn partner"
+    },
+    "answer": "b"
+  },
+  "86": {
+    "question": "Als u ziek wordt, waar kunt u in Nederland dan het beste eerst naartoe gaan?",
+    "options": {
+      "a": "naar de huisarts",
+      "b": "naar het ziekenhuis"
+    },
+    "answer": "a"
+  },
+  "87": {
+    "question": "Waar haalt men in Nederland medicijnen op recept?",
+    "options": {
+      "a": "bij de apotheek",
+      "b": "bij de drogist"
+    },
+    "answer": "a"
+  },
+  "88": {
+    "question": "Waar gaat u in Nederland in een noodgeval naartoe?",
+    "options": {
+      "a": "naar de drogist",
+      "b": "naar het ziekenhuis"
+    },
+    "answer": "b"
+  },
+  "89": {
+    "question": "Waar werken de meeste specialisten?",
+    "options": {
+      "a": "bij de huisartsenpost",
+      "b": "in het ziekenhuis"
+    },
+    "answer": "b"
+  },
+  "90": {
+    "question": "Voor wie is het consultatiebureau?",
+    "options": {
+      "a": "voor grote kinderen",
+      "b": "voor kleine kinderen"
+    },
+    "answer": "b"
+  },
+  "91": {
+    "question": "Wie werken er in Nederland?",
+    "options": {
+      "a": "alleen mannen",
+      "b": "mannen en vrouwen"
+    },
+    "answer": "b"
+  },
+  "92": {
+    "question": "Wanneer moet u werk gaan zoeken, zo snel mogelijk of later?",
+    "options": {
+      "a": "zo snel mogelijk",
+      "b": "later"
+    },
+    "answer": "a"
+  },
+  "93": {
+    "question": "Waar is in Nederland steeds minder werk te vinden?",
+    "options": {
+      "a": "in de industrie",
+      "b": "in de zorg"
+    },
+    "answer": "a"
+  },
+  "94": {
+    "question": "Waar is in Nederland veel werk te vinden?",
+    "options": {
+      "a": "in de landbouw",
+      "b": "in de zorg"
+    },
+    "answer": "b"
+  },
+  "95": {
+    "question": "Waar is het in Nederland gemakkelijker om werk te vinden?",
+    "options": {
+      "a": "in de beveiliging",
+      "b": "in de landbouw"
+    },
+    "answer": "a"
+  },
+  "96": {
+    "question": "Hoe vindt u in Nederland gemakkelijker werk, via de krant of via familie?",
+    "options": {
+      "a": "via de krant",
+      "b": "via familie"
+    },
+    "answer": "b"
+  },
+  "97": {
+    "question": "Waar kunt u zich in Nederland inschrijven als u werk zoekt?",
+    "options": {
+      "a": "bij een school",
+      "b": "bij een uitzendbureau"
+    },
+    "answer": "b"
+  },
+  "98": {
+    "question": "Geeft men elkaar in Nederland bij een sollicitatiegesprek eerst een hand of gaat men direct zitten?",
+    "options": {
+      "a": "Men gaat direct zitten",
+      "b": "Men geeft elkaar eerst een hand"
+    },
+    "answer": "b"
+  },
+  "99": {
+    "question": "Krijgt u in Nederland een uitkering of moet uw partner voor u zorgen?",
+    "options": {
+      "a": "Ik krijg een uitkering",
+      "b": "Mijn partner moet voor mij zorgen"
+    },
+    "answer": "b"
+  },
+  "100": {
+    "question": "Is het leven in Nederland duur of goedkoop?",
+    "options": {
+      "a": "duur",
+      "b": "goedkoop"
+    },
+    "answer": "a"
+  }
+}
