@@ -162,8 +162,8 @@
   "21": {
     "question": "In Nederland, zijn daar veel fietsen of weinig fietsen?",
     "options": {
-      "a": "veel fietsen",
-      "b": "weinig fietsen"
+      "a": "veel",
+      "b": "weinig"
     },
     "answer": "a"
   },
@@ -219,7 +219,7 @@
     "question": "Waren de VOC-schepen voor de handel of voor de visvangst?",
     "options": {
       "a": "voor de handel",
-      "b": "voor de vis"
+      "b": "voor de visvangst"
     },
     "answer": "a"
   },
@@ -432,10 +432,10 @@
     "answer": "a"
   },
   "55": {
-    "question": "Heeft Nederland veel televisiezenders of is er één staatszender?",
+    "question": "Heeft Nederland veel televisiekanalen of is er één staatstelevisie?",
     "options": {
-      "a": "Er is één staatszender",
-      "b": "Er zijn veel televisiezenders"
+      "a": "Er is één staatstelevisie",
+      "b": "Er zijn veel televisiekanalen"
     },
     "answer": "b"
   },
@@ -507,7 +507,7 @@
     "question": "Moet u voor een taalcursus betalen?",
     "options": {
       "a": "ja",
-      "b": "de school betaalt"
+      "b": "nee"
     },
     "answer": "a"
   },
@@ -624,7 +624,7 @@
     "answer": "b"
   },
   "79": {
-    "question": "Wat laten deze jongen doen met een computer?",
+    "question": "Wat kan deze jongen doen met een computer?",
     "options": {
       "a": "alleen spelen",
       "b": "spelen en leren"
@@ -648,7 +648,7 @@
     "answer": "b"
   },
   "82": {
-    "question": "Tot welke leeftijd kunnen jongeren in Nederland naar school?",
+    "question": "Tot welke leeftijd moeten kinderen in Nederland naar school?",
     "options": {
       "a": "zestien jaar",
       "b": "achttien jaar"
@@ -656,15 +656,15 @@
     "answer": "b"
   },
   "83": {
-    "question": "Vanaf welke leeftijd mogen jongeren een eigen keuze maken?",
+    "question": "Vanaf welke leeftijd mogen jongeren hun eigen keuzes maken?",
     "options": {
       "a": "vanaf zestien jaar",
       "b": "vanaf achttien jaar"
     },
-    "answer": "a"
+    "answer": "b"
   },
   "84": {
-    "question": "Is het verplicht om u te verzekeren tegen ziektekosten?",
+    "question": "Is het verplicht om uzelf te verzekeren tegen ziektekosten?",
     "options": {
       "a": "ja",
       "b": "nee"
