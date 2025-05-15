@@ -188,6 +188,14 @@ header h1 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
     .question-container {
         flex-direction: column;
     }
@@ -196,7 +204,93 @@ header h1 {
         width: 100%;
     }
 
+    .image-container {
+        padding: 10px;
+    }
+
+    .question-content {
+        padding: 15px;
+    }
+
+    #question-text {
+        font-size: 1.2rem;
+    }
+
     .options {
         flex-direction: column;
+    }
+
+    .option-btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    #question-audio {
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Additional responsive adjustments for very small screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .migratometer-container {
+        padding: 10px;
+    }
+
+    .migratometer-container h2 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .progress-bar {
+        height: 15px;
+        margin-bottom: 5px;
+    }
+
+    .threshold-marker::after {
+        top: -15px;
+        font-size: 10px;
+    }
+
+    .score {
+        font-size: 0.9rem;
+    }
+
+    .question-content {
+        padding: 10px;
+    }
+
+    #question-text {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .option-btn {
+        padding: 10px;
+    }
+
+    .feedback {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+
+    #question-image {
+        max-height: 250px;
+    }
+
+    #question-audio {
+        width: 100%;
+        max-width: 100%;
+        height: 30px;
     }
 }
