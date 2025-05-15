@@ -147,9 +147,10 @@ header h1 {
     cursor: pointer;
     transition: all 0.2s ease;
 }
-
-.option-btn:hover {
-    background-color: #e0e0e0;
+@media (hover: hover) {
+    .option-btn:hover {
+        background-color: #e0e0e0;
+    }
 }
 
 .option-btn.correct {
