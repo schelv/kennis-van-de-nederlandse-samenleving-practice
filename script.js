@@ -73,6 +73,13 @@ function nextQuestion() {
     // Load and play the audio
     const audioElement = document.getElementById('question-audio');
     audioElement.src = `audio/KNS ${currentQuestionId.padStart(3, '0')}.mp3`;
+
+    // Remove any existing timeupdate event listeners
+    audioElement.removeEventListener('timeupdate', pauseBeforeEnd);
+
+    // Add event listener to pause 5 seconds before the end
+    audioElement.addEventListener('timeupdate', pauseBeforeEnd);
+
     audioElement.load();
     audioElement.play().catch(error => {
         console.error('Error playing audio:', error);
@@ -155,3 +162,19 @@ function handleImageError() {
 
 // Add error handler to image
 document.getElementById('question-image').addEventListener('error', handleImageError);
+
+// Function to pause audio 5 seconds before the end
+function pauseBeforeEnd() {
+    const audioElement = document.getElementById('question-audio');
+
+    // Check if the audio is 5 seconds from the end
+    if (audioElement.duration > 0 && audioElement.currentTime > 0 && 
+        (audioElement.duration - audioElement.currentTime) <= 5) {
+
+        // Pause the audio
+        audioElement.pause();
+
+        // Remove the event listener to prevent multiple pauses
+        audioElement.removeEventListener('timeupdate', pauseBeforeEnd);
+    }
+}
