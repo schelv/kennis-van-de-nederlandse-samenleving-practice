@@ -1,9 +1,12 @@
 // Global variables
+const MAX_HISTORY = 30;
+const PAUSE_SECONDS_FROM_END = 5;
+
 let questions = {};
 let currentQuestionId = null;
 let askedQuestions = [];
 let userAnswers = [];
-const MAX_HISTORY = 30;
+let hasHeardAnswer = false;
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async () => {
@@ -48,6 +51,9 @@ function nextQuestion() {
         btn.disabled = false;
     });
 
+    // Reset the hasHeardAnswer flag
+    hasHeardAnswer = false;
+
     // Select a new question
     currentQuestionId = selectNewQuestion();
 
@@ -74,11 +80,16 @@ function nextQuestion() {
     const audioElement = document.getElementById('question-audio');
     audioElement.src = `audio/KNS ${currentQuestionId.padStart(3, '0')}.mp3`;
 
-    // Remove any existing timeupdate event listeners
+    // Remove any existing time-related event listeners
     audioElement.removeEventListener('timeupdate', pauseBeforeEnd);
+    audioElement.removeEventListener('timeupdate', checkIfPastPausePoint);
 
-    // Add event listener to pause 5 seconds before the end
+    // Add an event listener to pause before the answer is told.
     audioElement.addEventListener('timeupdate', pauseBeforeEnd);
+
+    // Add an event listener to detect if past the pause point
+    audioElement.addEventListener('timeupdate', checkIfPastPausePoint);
+
 
     audioElement.load();
     audioElement.play().catch(error => {
@@ -91,7 +102,11 @@ function checkAnswer(selectedOption) {
     if (!currentQuestionId) return;
 
     const question = questions[currentQuestionId];
-    const isCorrect = selectedOption === question.answer;
+    const selectedCorrectOption = selectedOption === question.answer;
+
+    // Determine if the answer should be counted as correct
+    // If the user has heard the answer, don't count it as correct even if they selected the right option
+    const isCorrect = selectedCorrectOption && !hasHeardAnswer;
 
     // Record the answer
     userAnswers.push({
@@ -104,14 +119,22 @@ function checkAnswer(selectedOption) {
         userAnswers.shift();
     }
 
-    // Update the UI to show correct/incorrect
+    // Update the UI to show correct/incorrect/neutral
     const selectedButton = document.getElementById(`option-${selectedOption}`);
 
-    if (isCorrect) {
+    if (hasHeardAnswer) {
+        // User has heard the answer - neutral outcome
+        selectedButton.classList.add('neutral');
+        document.getElementById(`option-${question.answer}`).classList.add('correct');
+        document.getElementById('feedback').textContent = 'You heard the answer - not counting this one!';
+        document.getElementById('feedback').className = 'feedback neutral';
+    } else if (selectedCorrectOption) {
+        // User selected the correct answer without hearing the answer
         selectedButton.classList.add('correct');
         document.getElementById('feedback').textContent = 'Correct!';
         document.getElementById('feedback').className = 'feedback correct';
     } else {
+        // User selected the wrong answer
         selectedButton.classList.add('incorrect');
         document.getElementById(`option-${question.answer}`).classList.add('correct');
         document.getElementById('feedback').textContent = 'Incorrect!';
@@ -163,18 +186,28 @@ function handleImageError() {
 // Add error handler to image
 document.getElementById('question-image').addEventListener('error', handleImageError);
 
-// Function to pause audio 5 seconds before the end
+// Function to pause before the answer is told.
 function pauseBeforeEnd() {
     const audioElement = document.getElementById('question-audio');
 
-    // Check if the audio is 5 seconds from the end
-    if (audioElement.duration > 0 && audioElement.currentTime > 0 && 
-        (audioElement.duration - audioElement.currentTime) <= 5) {
+    // margin is needed because the duration and currentTime are floats.
+    const margin = 0.5
 
-        // Pause the audio
+    if (audioElement.duration > 0 && audioElement.currentTime > 0 &&
+        (audioElement.duration - audioElement.currentTime) < PAUSE_SECONDS_FROM_END + margin) {
+
         audioElement.pause();
-
-        // Remove the event listener to prevent multiple pauses
         audioElement.removeEventListener('timeupdate', pauseBeforeEnd);
     }
 }
+
+function checkIfPastPausePoint() {
+    const audioElement = document.getElementById('question-audio');
+    if (audioElement.duration > 0 && audioElement.currentTime > 0 &&
+        (audioElement.duration - audioElement.currentTime) < PAUSE_SECONDS_FROM_END) {
+
+        hasHeardAnswer = true;
+        audioElement.removeEventListener('timeupdate', checkIfPastPausePoint);
+    }
+}
+
